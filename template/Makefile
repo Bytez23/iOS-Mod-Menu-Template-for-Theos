@@ -16,7 +16,7 @@ IGNORE_WARNINGS=0
 MOBILE_THEOS=1
 ifeq ($(MOBILE_THEOS),1)
   # path to your sdk
-  SDK_PATH = $(THEOS)/sdks/iPhoneOS11.2.sdk/
+  SDK_PATH = $(THEOS)/sdks/iPhoneOS12.4.sdk/
   $(info ===> Setting SYSROOT to $(SDK_PATH)...)
   SYSROOT = $(SDK_PATH)
 else
